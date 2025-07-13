@@ -1,0 +1,329 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: rgb(13, 15, 21);
+    font-family: "Bebas Neue", sans-serif;
+}
+
+#container {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+nav {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+.logo {
+    width: 100px;
+    margin-left: 30px;
+}
+
+.list-item {
+    list-style: none;
+    display: inline;
+    margin: 0px 30px;
+    font-size: 22px;
+}
+
+.links {
+    text-decoration: none;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+}
+
+#span{
+    color: white;
+    font-size: 24px;
+}
+
+.links:hover {
+    text-decoration: underline;
+    color: rgb(208, 100, 23);
+}
+
+.home-content {
+    margin: 13% 0px 0px 8%;
+}
+
+#username {
+    color: white;
+    font-size: 70px;
+    margin-bottom: 20px;
+    font-family: "Bangers", system-ui;
+}
+
+#username2 {
+    color: white;
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-family: "Bangers", system-ui;
+}
+
+#username1 {
+    color: white;
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-family: "Bangers", system-ui;
+}
+
+#lname {
+    font-family: "Bangers", system-ui;
+     color: rgb(208, 100, 23);
+}
+
+#user-details {
+    color: white;
+    line-height: 1.2;
+}
+
+#download {
+    text-decoration: none;
+    background-color: rgb(13, 15, 21);
+    border-color: rgb(208, 100, 23);
+    border: solid 3px;
+    padding: 10px;
+    margin-top: 30px;
+    display: inline-block
+}
+
+.home-img {
+    width: 45%;
+    height: 75%;
+    position: absolute;
+    right: 30px;
+    bottom: 0px;
+}
+
+.group1 {
+    position: absolute;
+    height: 100%;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: bottom 2s, left 1s;
+}
+
+.home-img:hover #boy {
+    left: 40%;
+}
+
+
+.line1{
+    margin-top: 570px;
+    margin-left: 50px;
+    width: 500px;
+    height: 10px;
+    background-color: rgb(23, 208, 143);
+    border-radius: 90px;
+    
+}
+
+.commonarea{
+    margin-top: 300px;
+    display: grid;
+    grid-template-columns: repeat(3,3fr);
+}
+#about1{
+   width: 100%;
+   height: 500px;
+   align-items: center;
+   margin-left:100px;
+   
+}
+
+.sectionHead {
+    color: white;
+    text-align: center;
+}
+
+.mainHead {
+    font-size: 30px;
+}
+
+.subHead {
+    font-size: 17px;
+    color: rgb(208, 100, 23);
+}
+
+.aboutBody {
+    margin-top: 20px;
+   
+   
+}
+
+.aboutme{
+    margin-left: 30%;
+}
+
+.img1 {
+    width: 48%;
+    margin-left: 40%;
+}
+
+.line2{
+    width: 1px;
+    height: 700px;
+    background-color: rgb(208, 100, 23);
+    margin-left: 90%;
+}
+
+
+.aboutContent {
+    color: white;
+    font-size: 20px;
+    text-align: left;
+    width: 150%;
+}
+
+.information {
+    margin-top: 1.3rem;
+}
+
+.infobox {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.infobox>span {
+    margin-left: 1rem;
+}
+
+.skills{
+   width: 100%;
+   height: 500px;
+   align-items: center;
+   margin-right:100px;
+   
+}
+
+.skillImage{
+    margin-top: 30px;
+    width: 60%;
+}
+.skillContent {
+    color: white;
+    gap: 2rem;
+   
+}
+
+.bars {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 1rem 0px;
+    margin-right:100px;
+}
+
+.barHead,.barPercent{
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.baseBar{
+    width: 100%;
+    height: 0.5rem;
+    background-color: black;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0px;
+}
+
+.htmlBar{
+    background-color: rgb(208, 100, 23);
+    width: 92%;
+}
+
+.cssBar{
+    background-color: rgb(208, 100, 23);
+    width: 80%;
+}
+
+.cBar{
+    background-color: rgb(208, 100, 23);
+    width: 25%;
+}
+
+.pythonBar{
+    background-color: rgb(208, 100, 23);
+    width: 35%;
+}
+
+#contact{
+    margin: 8% 8% 0px 8%;
+}
+
+.iconCollection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.icon{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(13, 15, 21);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10px;
+}
+.brands{
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+}
+
+.brands:hover {
+    text-decoration: none;
+    color: rgb(208, 100, 23);
+}
+
+footer{
+    margin-top: 2%;
+}
+
+#copyright{
+    color: white;
+    text-align: center;
+    font-weight: 500;
+}
+
+.upArrow{
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    float: right;
+    margin: -40px 30px 20px 0px;
+}
+
+.arrow{
+    color: white;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar{
+    width: 4px;
+    border-radius: 0px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: rgb(13, 15, 21);
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: rgb(208, 100, 23);
+    border-radius: 10px;
+}
